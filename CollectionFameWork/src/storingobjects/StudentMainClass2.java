@@ -23,7 +23,7 @@ public class StudentMainClass2 {
 			//since ArrayList is having student objects,
 			//sort() goes in search of compareTo() in Student class
 			
-	       Collections.sort(al);
+	       sort.Collections(al);
 			for(Students s :al) {
 				System.out.println(s);
 			}
